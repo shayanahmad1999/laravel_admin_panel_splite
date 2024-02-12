@@ -16,6 +16,10 @@
     <!--Style css-->
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 
+    <!--DataTables css-->
+		<link rel="stylesheet" href="{{asset('assets/plugins/Datatable/css/dataTables.bootstrap4.css')}}">
+		<link rel="stylesheet" href="{{asset('assets/plugins/Datatable/css/buttons.bootstrap4.min.css')}}">
+
     <!--Icons css-->
     <link rel="stylesheet" href="{{asset('assets/css/icons.css')}}">
 

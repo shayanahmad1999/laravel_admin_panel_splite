@@ -32,3 +32,15 @@ Route::get('/forgot-password', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('admin.dashboard');
+
+Route::get('/basic-table', function () {
+    return view('tables/basic');
+})->name('admin.basicTable');
+
+Route::get('/data-table', function () {
+    return view('tables/data');
+})->name('admin.dataTable');
+
+Route::get('/edit-table', function () {
+    return view('tables/edit');
+})->name('admin.editTable');

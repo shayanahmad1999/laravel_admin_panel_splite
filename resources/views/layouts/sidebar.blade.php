@@ -25,9 +25,9 @@
         <li class="slide">
             <a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fa fa-table"></i><span class="side-menu__label">Tables</span><span class="badge badge-secondary nav-badge1">New</span></a>
             <ul class="slide-menu">
-                <li><a href="table.html" class="slide-item">Basic Tables</a></li>
-                <li><a href="datatables.html" class="slide-item"> Data Tables</a></li>
-                <li><a href="editable.html" class="slide-item"> Edit Table</a></li>
+                <li><a href="{{route('admin.basicTable')}}" class="slide-item">Basic Tables</a></li>
+                <li><a href="{{route('admin.dataTable')}}" class="slide-item"> Data Tables</a></li>
+                <li><a href="{{route('admin.editTable')}}" class="slide-item"> Edit Table</a></li>
             </ul>
         </li>
     </ul>
