@@ -30,6 +30,15 @@
                 <li><a href="{{route('admin.editTable')}}" class="slide-item"> Edit Table</a></li>
             </ul>
         </li>
+        <li class="slide">
+            <a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fa fa-edit"></i><span class="side-menu__label">Forms</span><span class="badge badge-pink nav-badge">6</span></a>
+            <ul class="slide-menu">
+                <li><a href="{{route('admin.elementForm')}}" class="slide-item"> Form Elements</a></li>
+                <li><a href="{{route('admin.advanceForm')}}" class="slide-item"> Advanced Form</a></li>
+                <li><a href="{{route('admin.validationForm')}}" class="slide-item"> Form Validation</a></li>
+                <li><a href="{{route('admin.wizardForm')}}" class="slide-item"> Form Wizard</a></li>
+            </ul>
+        </li>
     </ul>
 </aside>
 <!--aside closed-->

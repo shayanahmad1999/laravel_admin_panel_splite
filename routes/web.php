@@ -44,3 +44,19 @@ Route::get('/data-table', function () {
 Route::get('/edit-table', function () {
     return view('tables/edit');
 })->name('admin.editTable');
+
+Route::get('/element-form', function () {
+    return view('forms/element');
+})->name('admin.elementForm');
+
+Route::get('/advance-form', function () {
+    return view('forms/advance');
+})->name('admin.advanceForm');
+
+Route::get('/validation-form', function () {
+    return view('forms/validation');
+})->name('admin.validationForm');
+
+Route::get('/wizard-form', function () {
+    return view('forms/wizard');
+})->name('admin.wizardForm');

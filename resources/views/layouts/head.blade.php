@@ -23,8 +23,40 @@
     <!--Icons css-->
     <link rel="stylesheet" href="{{asset('assets/css/icons.css')}}">
 
-
     <!--Sidemenu css-->
     <link rel="stylesheet" href="{{asset('assets/css/sidemenu.css')}}">
+
+    <!--Form Wizard css-->
+		<link rel="stylesheet" href="{{asset('assets/plugins/formwizard/smart_wizard.css')}}">
+		<link rel="stylesheet" href="{{asset('assets/plugins/formwizard/smart_wizard_theme_arrows.css')}}">
+		<link rel="stylesheet" href="{{asset('assets/plugins/formwizard/smart_wizard_theme_circles.css')}}">
+		<link rel="stylesheet" href="{{asset('assets/plugins/formwizard/smart_wizard_theme_dots.css')}}">
+
+   <!--Bootstrap-daterangepicker css-->
+		<link rel="stylesheet" href="{{asset('assets/plugins/bootstrap-daterangepicker/daterangepicker.css')}}">
+
+		<!--Bootstrap-datepicker css-->
+		<link rel="stylesheet" href="{{asset('assets/plugins/bootstrap-datepicker/bootstrap-datepicker.css')}}">
+
+		<!--iCheck css-->
+		<link rel="stylesheet" href="{{asset('assets/plugins/iCheck/all.css')}}">
+
+		<!--Bootstrap-colorpicker css-->
+		<link rel="stylesheet" href="{{asset('assets/plugins/bootstrap-colorpicker/bootstrap-colorpicker.min.css')}}">
+
+		<!--Bootstrap-timepicker css-->
+		<link rel="stylesheet" href="{{asset('assets/plugins/bootstrap-timepicker/bootstrap-timepicker.min.css')}}">
+
+		<!--Select2 css-->
+		<link rel="stylesheet" href="{{asset('assets/plugins/select2/select2.css')}}">
+
+		<!--mutipleselect css-->
+		<link rel="stylesheet" href="{{asset('assets/plugins/multipleselect/multiple-select.css')}}">
+
+		<!--Tempusdominus css-->
+		<link rel="stylesheet" href="{{asset('assets/plugins/tempusdominus-bootstrap-4/tempusdominus-bootstrap-4.css')}}">
+
+    <!--Summernote css-->
+    <link rel="stylesheet" href="{{asset('assets/plugins/summernote/summernote-bs4.css')}}">
 
 </head>
