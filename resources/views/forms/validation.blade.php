@@ -215,7 +215,7 @@
             <div class="popup-box chat-popup" id="qnimate">
                 <div class="popup-head">
                     <div class="popup-head-left pull-left"><img src="../../assets/img/avatar/avatar-3.jpeg"
-                            alt="iamgurdeeposahan" class="mr-2"> Alica Nestle</div>
+                            alt="iamgurdeeposahan" class="mr-2"> Shayan Ahmad</div>
                     <div class="popup-head-right pull-right">
                         <div class="btn-group">
                             <button class="chat-header-button" data-toggle="dropdown" type="button"
@@ -239,7 +239,7 @@
                         </div>
                         <div class="direct-chat-msg">
                             <div class="direct-chat-info clearfix">
-                                <span class="direct-chat-name float-left">Alica Nestle</span>
+                                <span class="direct-chat-name float-left">Shayan Ahmad</span>
                                 <span class="direct-chat-timestamp float-right">7:40 Am</span>
                             </div>
                             <img class="direct-chat-img" src="../../assets/img/avatar/avatar-3.jpeg"
@@ -264,7 +264,7 @@
                         </div>
                         <div class="direct-chat-msg doted-border">
                             <div class="direct-chat-info clearfix">
-                                <span class="direct-chat-name float-left">Alica Nestle</span>
+                                <span class="direct-chat-name float-left">Shayan Ahmad</span>
                                 <span class="direct-chat-timestamp float-right">6:20 Am</span>
                             </div>
                             <img alt="iamgurdeeposahan" src="../../assets/img/avatar/avatar-3.jpeg"
