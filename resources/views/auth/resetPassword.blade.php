@@ -29,26 +29,29 @@
         <section class="section">
             <div class="container mt-6 mb-5">
 
-                <!--row open-->
-                <div class="row">
-                    <div class="single-page">
-                        <div class="wrapper ">
-                            <form id="Forgot" class="card-body" tabindex="500">
-                                <h4 class="text-dark text-center">Forget Password?</h4>
-                                <div class="mail">
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                                </div>
-                                <div class="submit">
-                                    <a class="btn btn-primary btn-block" href="{{route('admin.resetPassword')}}">Forgot Password</a>
-                                </div>
-                                <div class="text-center text-dark mt-3 mb-0">
-                                    Forget it, <a href="{{route('admin.login')}}">send me back</a> to the sign in.
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                <!--row closed-->
+               <!--row open-->
+					<div class="row">
+						<div class="single-page">
+							<div class=" wrapper">
+								<form  class="card-body" tabindex="500">
+									<h3 class="text-dark text-center">Reset Password</h3>
+									<div class="mail">
+										<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+									</div>
+									<div class="passwd">
+										<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+									</div>
+									<div class="passwd">
+										<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirm Password">
+									</div>
+									<div class="submit mt-1 mb-0">
+										<a class="btn btn-primary btn-block" href="{{route('admin.login')}}">Reset Password</a>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!--row closed-->
 
             </div>
         </section>

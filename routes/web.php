@@ -29,6 +29,10 @@ Route::get('/forgot-password', function () {
     return view('auth/forgotPassword');
 })->name('admin.forgotPassword');
 
+Route::get('/reset-password', function () {
+    return view('auth/resetPassword');
+})->name('admin.resetPassword');
+
 Route::get('/profile', function () {
     return view('auth/profile');
 })->name('admin.profile');
