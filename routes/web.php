@@ -26,5 +26,5 @@ Route::get('/signup', function () {
 })->name('admin.signup');
 
 Route::get('/dashboard', function () {
-    return view('auth/signup');
+    return view('dashboard');
 })->name('admin.dashboard');
