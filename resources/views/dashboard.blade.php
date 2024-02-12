@@ -1,5 +1,10 @@
 @extends('layouts.layout')
 @section('content')
+<style>
+    .fa{
+        margin-top: 13px;
+    }
+</style>
     <!DOCTYPE html>
     <html lang="en">
 
