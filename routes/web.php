@@ -25,6 +25,10 @@ Route::get('/signup', function () {
     return view('auth/signup');
 })->name('admin.signup');
 
+Route::get('/forgot-password', function () {
+    return view('auth/forgotPassword');
+})->name('admin.forgotPassword');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('admin.dashboard');

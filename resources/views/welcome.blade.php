@@ -46,7 +46,7 @@
                                         <input type="password" class="form-control" id="exampleInputPassword1"
                                             placeholder="Password">
                                     </div>
-                                    <p class="mb-3 text-right"><a href="forgot.html">Forgot Password</a></p>
+                                    <p class="mb-3 text-right"><a href="{{route('admin.forgotPassword')}}">Forgot Password</a></p>
                                     <div class="submit">
                                         <a class="btn btn-primary btn-block" href="{{route('admin.dashboard')}}">Login</a>
                                     </div>
