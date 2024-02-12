@@ -1,3 +1,10 @@
+<!--Footer-->
+<footer class="main-footer">
+    <div class="text-center">
+        Copyright &copy;Splite-Admin 2021. Design By<a href="https://spruko.com/"> Spruko</a>
+    </div>
+</footer>
+<!--/Footer-->
 <!-- Back to top -->
 <a href="#top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
 

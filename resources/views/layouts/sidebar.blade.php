@@ -20,7 +20,7 @@
             </ul>
         </li>
         <li>
-            <a class="side-menu__item" href="#"><i class="side-menu__icon fe fe-grid"></i><span class="side-menu__label">Widgets</span></a>
+            <a class="side-menu__item" href="{{route('admin.modal')}}"><i class="side-menu__icon fe fe-grid"></i><span class="side-menu__label">Modals</span></a>
         </li>
         <li class="slide">
             <a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fa fa-table"></i><span class="side-menu__label">Tables</span><span class="badge badge-secondary nav-badge1">New</span></a>

@@ -33,6 +33,10 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('admin.dashboard');
 
+Route::get('/modals', function () {
+    return view('modal');
+})->name('admin.modal');
+
 Route::get('/basic-table', function () {
     return view('tables/basic');
 })->name('admin.basicTable');
