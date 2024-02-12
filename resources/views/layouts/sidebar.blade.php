@@ -7,7 +7,7 @@
                 <span class="pulse bg-success" aria-hidden="true"></span>
             </div>
             <div class="user-info">
-                <h6 class=" mb-1 text-dark">Alica Nestle</h6>
+                <h6 class=" mb-1 text-dark">Shayan Ahmad</h6>
                 <span class="text-muted app-sidebar__user-name text-sm"> Web-Designer</span>
             </div>
         </div>
@@ -20,7 +20,7 @@
             </ul>
         </li>
         <li>
-            <a class="side-menu__item" href="widgets.html"><i class="side-menu__icon fe fe-grid"></i><span class="side-menu__label">Widgets</span></a>
+            <a class="side-menu__item" href="#"><i class="side-menu__icon fe fe-grid"></i><span class="side-menu__label">Widgets</span></a>
         </li>
         <li class="slide">
             <a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fa fa-table"></i><span class="side-menu__label">Tables</span><span class="badge badge-secondary nav-badge1">New</span></a>

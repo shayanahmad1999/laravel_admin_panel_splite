@@ -1,6 +1,6 @@
   <!--nav open-->
   <nav class="navbar navbar-expand-lg main-navbar">
-    <a class="header-brand" href="index.html">
+    <a class="header-brand" href="{{route('admin.dashboard')}}">
         <img src="{{asset('assets/img/brand/logo-white.png')}}" class="header-brand-img" alt="Splite-Admin  logo">
     </a>
     <form class="form-inline mr-auto">
@@ -173,22 +173,22 @@
         </li>
         <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg d-flex">
                 <span class="mr-3 mt-2 d-none d-lg-block ">
-                    <span class="text-white">Hello,<span class="ml-1"> Alica Nestle</span></span>
+                    <span class="text-white">Hello,<span class="ml-1"> Shayan Ahmad</span></span>
                 </span>
             <span><img src="../../assets/img/avatar/avatar-3.jpeg" alt="profile-user" class="rounded-circle w-32 mr-2"></span>
             </a>
             <div class="dropdown-menu dropdown-menu-right">
                 <div class=" dropdown-header noti-title text-center border-bottom pb-3">
-                    <h5 class="text-capitalize text-dark mb-1">Alica Nestle</h5>
+                    <h5 class="text-capitalize text-dark mb-1">Shayan Ahmad</h5>
                     <small class="text-overflow m-0"> Web-Designer</small>
                 </div>
-                <a class="dropdown-item" href="profile.html"><i class="mdi mdi-account-outline mr-2"></i> <span>My profile</span></a>
+                <a class="dropdown-item" href="#"><i class="mdi mdi-account-outline mr-2"></i> <span>My profile</span></a>
                 <a class="dropdown-item" href="#"><i class="mdi mdi-settings mr-2"></i> <span>Settings</span></a>
                 <a class="dropdown-item" href="#"><i class=" mdi mdi-message-outline mr-2"></i> <span>Mails</span></a>
                 <a class="dropdown-item" href="#"><i class=" mdi mdi-account-multiple-outline mr-2"></i> <span>Friends</span></a>
                 <a class="dropdown-item" href="#"><i class="fe fe-calendar mr-2"></i> <span>Activity</span></a>
                 <a class="dropdown-item" href="#"><i class="mdi mdi-compass-outline mr-2"></i> <span>Support</span></a>
-                <div class="dropdown-divider"></div><a class="dropdown-item" href="login.html"><i class="mdi  mdi-logout-variant mr-2"></i> <span>Logout</span></a>
+                <div class="dropdown-divider"></div><a class="dropdown-item" href="{{route('admin.login')}}"><i class="mdi  mdi-logout-variant mr-2"></i> <span>Logout</span></a>
             </div>
         </li>
     </ul>
